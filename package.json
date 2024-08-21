@@ -1,0 +1,24 @@
+{
+  "name": "api-node-mongo",
+  "version": "1.0.0",
+  "description": "Api in NodeJS with Mongodb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuriloFerre1ra/node-mongodb.git"
+  },
+  "author": "@MuriloFerre1ra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuriloFerre1ra/node-mongodb/issues"
+  },
+  "homepage": "https://github.com/MuriloFerre1ra/node-mongodb#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3"
+  }
+}
