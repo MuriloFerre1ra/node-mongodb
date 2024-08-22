@@ -25,7 +25,7 @@ app.post("/users", async (request, response) => {
 
 mongoose
   .connect(
-    "mongodb+srv://muriloti100:senhateste@cluster0.5c3on.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://..:...@cluster0.5c3on.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => console.log("Database connected."))
   .catch(() => console.log("Error connecting database"));
